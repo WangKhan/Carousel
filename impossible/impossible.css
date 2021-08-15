@@ -13,26 +13,44 @@ body{
   background-color: #000 ;
   min-height: 100vh;
 }
-h2{
-  font-size: 6em;
+h4{
+  font-size: 3em;
   font-weight: 500;
   color: #222;
   letter-spacing: 5px;
   cursor: pointer;
 }
-h2 span{
+h4 span{
   transition: 0.5s;
 }
-h2:hover span:nth-child(1){
+h4:hover span:nth-child(1){
   margin-right: 10px;
 }
-h2:hover span:nth-child(1)::after{
+h4:hover span:nth-child(1)::after{
   content: "'";
 }
-h2:hover span:nth-child(2){
+h4:hover span:nth-child(2){
   margin-left: 40px;
 }
-h2:hover span{
+h4:hover span{
+  color:#fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff,
+               0 0 40px #fff,
+               0 0 80px #fff,
+               0 0 120px #fff,
+               0 0 160px #fff;
+}
+h4:active span:nth-child(1){
+  margin-right: 10px;
+}
+h4:active span:nth-child(1)::after{
+  content: "'";
+}
+h4:active span:nth-child(2){
+  margin-left: 40px;
+}
+h4:active span{
   color:#fff;
   text-shadow: 0 0 10px #fff,
                0 0 20px #fff,

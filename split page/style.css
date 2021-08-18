@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  overflow: hidden;
+}
+.left{
+  height: 100vh;
+  width: 50%;
+  background-color: aqua;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.5s ease-in;
+}
+.right{
+  height: 100vh;
+  width: 50%;
+  background-color: yellow;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.5s ease-in;
+}
+h1{
+  font-size: 100px;
+}
+.left:hover{
+  width: 100%;
+}
+.right:hover{
+  width: 100%;
+}
